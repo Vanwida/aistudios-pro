@@ -22,10 +22,10 @@ export default function GiscusComments() {
         }
 
         script.src = "https://giscus.app/client.js";
-        script.setAttribute("data-repo", "vanwidaAI/aistudios-pro"); // Placeholder, update to actual repo
-        script.setAttribute("data-repo-id", "R_XXXXXXXXXX"); // Placeholder
+        script.setAttribute("data-repo", "Vanwida/aistudios-pro");
+        script.setAttribute("data-repo-id", "R_kgDORXMciA");
         script.setAttribute("data-category", "Announcements");
-        script.setAttribute("data-category-id", "DIC_XXXXXXXXXX"); // Placeholder
+        script.setAttribute("data-category-id", "DIC_kwDORXMciM4C3IFL");
         script.setAttribute("data-mapping", "pathname");
         script.setAttribute("data-strict", "0");
         script.setAttribute("data-reactions-enabled", "1");

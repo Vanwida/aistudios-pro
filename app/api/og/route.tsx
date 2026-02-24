@@ -98,13 +98,16 @@ export async function GET(req: NextRequest) {
                                 fontWeight: 500,
                             }}
                         >
-                            <div
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                                src="https://aistudios.pro/Vanwida.png"
+                                alt="Vanwida"
+                                width={60}
+                                height={60}
                                 style={{
-                                    width: '60px',
-                                    height: '60px',
                                     borderRadius: '50%',
-                                    background: 'linear-gradient(to bottom right, #6c5ce7, #a29bfe)',
                                     marginRight: '20px',
+                                    border: '2px solid rgba(108, 92, 231, 0.6)',
                                 }}
                             />
                             Vanwida | @vanwidaAI

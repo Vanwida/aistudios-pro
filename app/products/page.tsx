@@ -20,34 +20,13 @@ export default function ProductsPage() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <ProductCard
-                            title="Vanwida OS Complete"
-                            description="The complete AI Agent Operating System. Includes a 40-page technical guide, fully configured memory templates (SOUL.md, TACIT.md, HEARTBEAT.md, CRITICAL-RULES.md), cron job scripts for automated memory consolidation, and a highly tuned USER.md profile to get pristine responses."
-                            price={29}
-                            url="https://7210972449114.gumroad.com/l/bjbynm"
-                            featured={true}
-                        />
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <ProductCard
-                            title="Vanwida OS Starter"
-                            description="The bare essentials. The bare-bones SOUL.md, AGENTS.md, and IDENTITY.md templates. Everything you need to escape prompt engineering."
+                            title="Vanwida OS"
+                            description="The complete AI Agent Operating System. Includes a 30-page build guide, fully configured memory templates (SOUL.md, TACIT.md, HEARTBEAT.md, CRITICAL-RULES.md), nightly consolidation cron, heartbeat monitoring cron, and a USER.md profile to get pristine responses. Everything you need to stop starting from scratch."
                             price={9}
                             url="https://7210972449114.gumroad.com/l/bjbynm"
-                        />
-                        <ProductCard
-                            title="Prompt Engine System"
-                            description="150+ battle-tested system prompts optimized for Claude 3.5 Sonnet and GPT-4o. Categorized by use-case: SWE, Copywriter, Analyst."
-                            price={19}
-                            url="https://7210972449114.gumroad.com/l/bjbynm"
-                        />
-                        <ProductCard
-                            title="1-on-1 Consulting"
-                            description="Book a 60-minute technical session to review your agent architecture, find memory leaks, and optimize your token usage."
-                            price={199}
-                            url="https://7210972449114.gumroad.com/l/bjbynm"
+                            featured={true}
                         />
                     </div>
                 </div>

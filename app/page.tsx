@@ -57,20 +57,20 @@ export default function Home() {
                 title="Vanwida OS"
                 description="The complete AI Agent Operating System template. Includes all system prompts, memory structures (SOUL, TACIT, HEARTBEAT), cron job scripts, and a dense PDF build-guide. Stop rebuilding memory layers from scratch."
                 price={9}
-                url="https://vanwida.gumroad.com/l/vanwida-os"
+                url="https://7210972449114.gumroad.com/l/bjbynm"
                 featured={true}
               />
               <ProductCard
                 title="Prompt Engineering Vault"
                 description="150+ battle-tested system prompts for creating specialized agents ranging from SEO writers to full-stack developers."
                 price={19}
-                url="https://vanwida.gumroad.com"
+                url="https://7210972449114.gumroad.com/l/bjbynm"
               />
               <ProductCard
                 title="1-on-1 Consulting"
                 description="Book a 60-minute strategy call to architect your company's custom AI agent workflow."
                 price={199}
-                url="https://vanwida.gumroad.com"
+                url="https://7210972449114.gumroad.com/l/bjbynm"
               />
             </div>
           </div>

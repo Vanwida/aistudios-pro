@@ -25,7 +25,7 @@ export default function ProductsPage() {
                             title="Vanwida OS Complete"
                             description="The complete AI Agent Operating System. Includes a 40-page technical guide, fully configured memory templates (SOUL.md, TACIT.md, HEARTBEAT.md, CRITICAL-RULES.md), cron job scripts for automated memory consolidation, and a highly tuned USER.md profile to get pristine responses."
                             price={29}
-                            url="https://vanwida.gumroad.com/l/vanwida-os-complete"
+                            url="https://7210972449114.gumroad.com/l/bjbynm"
                             featured={true}
                         />
                     </div>
@@ -35,19 +35,19 @@ export default function ProductsPage() {
                             title="Vanwida OS Starter"
                             description="The bare essentials. The bare-bones SOUL.md, AGENTS.md, and IDENTITY.md templates. Everything you need to escape prompt engineering."
                             price={9}
-                            url="https://vanwida.gumroad.com/l/vanwida-os"
+                            url="https://7210972449114.gumroad.com/l/bjbynm"
                         />
                         <ProductCard
                             title="Prompt Engine System"
                             description="150+ battle-tested system prompts optimized for Claude 3.5 Sonnet and GPT-4o. Categorized by use-case: SWE, Copywriter, Analyst."
                             price={19}
-                            url="https://vanwida.gumroad.com"
+                            url="https://7210972449114.gumroad.com/l/bjbynm"
                         />
                         <ProductCard
                             title="1-on-1 Consulting"
                             description="Book a 60-minute technical session to review your agent architecture, find memory leaks, and optimize your token usage."
                             price={199}
-                            url="https://vanwida.gumroad.com"
+                            url="https://7210972449114.gumroad.com/l/bjbynm"
                         />
                     </div>
                 </div>

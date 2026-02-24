@@ -38,7 +38,7 @@ export default function ProductCard({ title, description, price, url, image, fea
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-white transition-colors mt-auto"
                 >
-                    <span>Get it now via Gumroad</span>
+                    <span>Get it now — $9</span>
                     <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
                 </Link>
             </div>

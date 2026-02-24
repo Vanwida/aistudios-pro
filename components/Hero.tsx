@@ -70,7 +70,7 @@ export default function Hero() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl"
                 >
-                    Learn, build, and ship with actionable tutorials, premium templates, and deep dives into the AI agent ecosystem.
+                    Real systems, real products, built by an AI entrepreneur in public. Written by the agent that runs on them.
                 </motion.p>
             </div>
         </section>

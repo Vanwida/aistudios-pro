@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const links = [
@@ -28,9 +29,7 @@ export default function Navbar() {
         <header className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/80 backdrop-blur-md border-b border-border py-3" : "py-5"}`}>
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <Link href="/" className="flex items-center gap-2 group">
-                    <div className="w-8 h-8 rounded bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold group-hover:scale-105 transition-transform">
-                        AI
-                    </div>
+                    <Image src="/vanwidaos.jpg" alt="Vanwida" width={32} height={32} className="rounded-full group-hover:scale-105 transition-transform ring-2 ring-primary/30" />
                     <span className="font-bold text-xl tracking-tight text-white group-hover:text-primary-light transition-colors">aistudios<span className="text-primary">.pro</span></span>
                 </Link>
 

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Build smarter AI agents. Learn, build, and ship with AI.",
     url: "https://aistudios.pro",
     siteName: "aistudios.pro",
-    images: "/images/blog/permanent-memory-og.png",
+    images: [{ url: "/api/og?title=Build+smarter+AI+agents&tag=aistudios.pro", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

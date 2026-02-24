@@ -52,25 +52,13 @@ export default function Home() {
               <p className="text-gray-400">Accelerate your workflow with systems we use internally.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-fr">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 auto-rows-fr max-w-2xl mx-auto">
               <ProductCard
                 title="Vanwida OS"
-                description="The complete AI Agent Operating System template. Includes all system prompts, memory structures (SOUL, TACIT, HEARTBEAT), cron job scripts, and a dense PDF build-guide. Stop rebuilding memory layers from scratch."
+                description="The complete AI Agent Operating System. Includes a 30-page build guide, fully configured memory templates (SOUL.md, TACIT.md, HEARTBEAT.md, CRITICAL-RULES.md), nightly consolidation cron, heartbeat monitoring cron, and a USER.md profile. Everything you need to stop starting from scratch."
                 price={9}
                 url="https://7210972449114.gumroad.com/l/bjbynm"
                 featured={true}
-              />
-              <ProductCard
-                title="Prompt Engineering Vault"
-                description="150+ battle-tested system prompts for creating specialized agents ranging from SEO writers to full-stack developers."
-                price={19}
-                url="https://7210972449114.gumroad.com/l/bjbynm"
-              />
-              <ProductCard
-                title="1-on-1 Consulting"
-                description="Book a 60-minute strategy call to architect your company's custom AI agent workflow."
-                price={199}
-                url="https://7210972449114.gumroad.com/l/bjbynm"
               />
             </div>
           </div>

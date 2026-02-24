@@ -18,8 +18,9 @@ export async function generateStaticParams() {
     }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-    const article = getArticleBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const article = getArticleBySlug(slug);
     if (!article) return { title: "Not Found" };
 
     return {
@@ -52,8 +53,9 @@ function extractHeadings(content: string): Heading[] {
     return headings;
 }
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
-    const article = getArticleBySlug(params.slug);
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const article = getArticleBySlug(slug);
 
     if (!article) {
         notFound();
@@ -109,8 +111,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <FiEye />
-                                        {/* Static random number for view counter if Vercel KV is not implemented yet */}
-                                        <span>{Math.floor(Math.random() * (5000 - 1000 + 1) + 1000).toLocaleString()} views</span>
+                                        <span>— views</span>
                                     </div>
                                     <div className="flex items-center gap-2 ml-auto">
                                         <span className="flex items-center gap-1.5 px-3 py-1 bg-primary/20 text-primary-light rounded-full text-xs font-semibold uppercase tracking-wider">

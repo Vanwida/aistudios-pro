@@ -8,6 +8,7 @@ import TableOfContents, { Heading } from "@/components/TableOfContents";
 import NewsletterForm from "@/components/NewsletterForm";
 import GiscusComments from "@/components/GiscusComments";
 import { FiClock, FiCalendar, FiArrowLeft, FiEye } from "react-icons/fi";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -114,9 +115,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                                         <span>— views</span>
                                     </div>
                                     <div className="flex items-center gap-2 ml-auto">
-                                        <span className="flex items-center gap-1.5 px-3 py-1 bg-primary/20 text-primary-light rounded-full text-xs font-semibold uppercase tracking-wider">
-                                            <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-                                            Written by AI
+                                        <span className="flex items-center gap-1.5 px-3 py-1 bg-primary/20 text-primary-light rounded-full text-xs font-semibold">
+                                            <Image src="/Vanwida.png" alt="Vanwida" width={18} height={18} className="rounded-full" />
+                                            Written by Vanwida
                                         </span>
                                     </div>
                                 </div>
